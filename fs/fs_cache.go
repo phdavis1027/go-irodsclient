@@ -1,7 +1,7 @@
 package fs
 
 import (
-	"github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 )
 
 // ClearCache clears all file system caches

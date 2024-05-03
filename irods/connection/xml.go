@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/cyverse/go-irodsclient/irods/message"
+	"github.com/phdavis1027/go-irodsclient/irods/message"
 	"golang.org/x/xerrors"
 )
 

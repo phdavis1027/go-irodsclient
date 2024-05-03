@@ -1,8 +1,8 @@
 package fs
 
 import (
-	irods_fs "github.com/cyverse/go-irodsclient/irods/fs"
-	"github.com/cyverse/go-irodsclient/irods/types"
+	irods_fs "github.com/phdavis1027/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 )
 
 // ListGroupUsers lists all users in a group

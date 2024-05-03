@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cyverse/go-irodsclient/irods/fs"
-	"github.com/cyverse/go-irodsclient/irods/session"
-	"github.com/cyverse/go-irodsclient/irods/types"
-	"github.com/cyverse/go-irodsclient/irods/util"
-	"github.com/cyverse/go-irodsclient/test/server"
+	"github.com/phdavis1027/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/session"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/test/server"
 	"github.com/rs/xid"
 	"github.com/stretchr/testify/assert"
 

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/xerrors"
 )
@@ -20,7 +20,7 @@ const (
 	testServerPort          int    = 1247
 	testServerAdminUser     string = "rods"
 	testServerAdminPassword string = "test_rods_password"
-	testServerZone          string = "cyverse"
+	testServerZone          string = "phdavis1027"
 )
 
 func StartServer() error {

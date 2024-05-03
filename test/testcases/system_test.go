@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/irods/connection"
-	"github.com/cyverse/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/connection"
+	"github.com/phdavis1027/go-irodsclient/irods/fs"
 )
 
 func TestSystem(t *testing.T) {

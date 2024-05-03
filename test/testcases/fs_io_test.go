@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/fs"
+	"github.com/phdavis1027/go-irodsclient/fs"
 	"github.com/rs/xid"
 )
 

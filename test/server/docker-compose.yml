@@ -4,11 +4,11 @@ version: "2.0"
 services:
   dbms:
     hostname: "$DBMS_CONF_HOST"
-    image: cyverse/irods-test-postgres
+    image: phdavis1027/irods-test-postgres
     restart: always
 
   irods:
-    image: "cyverse/irods-test:v$IRODS_VER"
+    image: "phdavis1027/irods-test:v$IRODS_VER"
     hostname: "$IRODS_CONF_HOST"
     restart: always
     ports:

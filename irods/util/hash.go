@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 )
 
 func HashStrings(strs []string, hashAlg string) ([]byte, error) {

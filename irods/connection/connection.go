@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/irods/auth"
-	"github.com/cyverse/go-irodsclient/irods/common"
-	"github.com/cyverse/go-irodsclient/irods/message"
-	"github.com/cyverse/go-irodsclient/irods/metrics"
-	"github.com/cyverse/go-irodsclient/irods/types"
-	"github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/irods/auth"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/message"
+	"github.com/phdavis1027/go-irodsclient/irods/metrics"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 	"golang.org/x/xerrors"
 
 	log "github.com/sirupsen/logrus"

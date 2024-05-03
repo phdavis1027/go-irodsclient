@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cyverse/go-irodsclient/irods/connection"
-	irods_fs "github.com/cyverse/go-irodsclient/irods/fs"
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/connection"
+	irods_fs "github.com/phdavis1027/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 	"golang.org/x/xerrors"
 )
 

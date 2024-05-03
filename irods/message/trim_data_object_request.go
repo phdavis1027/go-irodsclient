@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/cyverse/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
 	"golang.org/x/xerrors"
 )
 

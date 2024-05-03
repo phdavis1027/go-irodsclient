@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"encoding/base64"
 
-	"github.com/cyverse/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
 )
 
 const (

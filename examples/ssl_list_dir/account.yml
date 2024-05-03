@@ -1,5 +1,5 @@
 host:
-  hostname: "ssldata.cyverse.org"
+  hostname: "ssldata.phdavis1027.org"
   port: 1247
 user:
   username: ""

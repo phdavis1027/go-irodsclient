@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/irods/connection"
-	irods_fs "github.com/cyverse/go-irodsclient/irods/fs"
-	"github.com/cyverse/go-irodsclient/irods/metrics"
-	"github.com/cyverse/go-irodsclient/irods/session"
-	"github.com/cyverse/go-irodsclient/irods/types"
-	"github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/irods/connection"
+	irods_fs "github.com/phdavis1027/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/metrics"
+	"github.com/phdavis1027/go-irodsclient/irods/session"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 	"github.com/rs/xid"
 	"golang.org/x/xerrors"
 )

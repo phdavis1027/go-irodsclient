@@ -1,5 +1,5 @@
 host:
-  hostname: "data.cyverse.org"
+  hostname: "data.phdavis1027.org"
   port: 1247
 user:
   username: ""

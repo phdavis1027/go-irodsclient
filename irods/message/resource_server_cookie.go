@@ -3,7 +3,7 @@ package message
 import (
 	"encoding/binary"
 
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 )
 
 // IRODSMessageResourceServerAuth stores resource server authentication message

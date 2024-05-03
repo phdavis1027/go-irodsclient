@@ -1,7 +1,7 @@
 package message
 
 import (
-	"github.com/cyverse/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
 )
 
 // IRODSMessageAuthRequest stores authentication request

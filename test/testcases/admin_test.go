@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/irods/connection"
-	"github.com/cyverse/go-irodsclient/irods/fs"
-	"github.com/cyverse/go-irodsclient/irods/types"
-	irods_util "github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/irods/connection"
+	"github.com/phdavis1027/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	irods_util "github.com/phdavis1027/go-irodsclient/irods/util"
 	"github.com/stretchr/testify/assert"
 )
 

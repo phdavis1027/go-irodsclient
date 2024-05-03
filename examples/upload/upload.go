@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/fs"
-	"github.com/cyverse/go-irodsclient/irods/types"
-	"github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 
 	log "github.com/sirupsen/logrus"
 )

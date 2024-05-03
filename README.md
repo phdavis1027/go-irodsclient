@@ -4,16 +4,16 @@ Go iRODS Client implemented in pure Golang
 ## Import package
 ```go
 import (
-    "github.com/cyverse/go-irodsclient/fs"
-    "github.com/cyverse/go-irodsclient/irods/types"
-    "github.com/cyverse/go-irodsclient/irods/util"
+    "github.com/phdavis1027/go-irodsclient/fs"
+    "github.com/phdavis1027/go-irodsclient/irods/types"
+    "github.com/phdavis1027/go-irodsclient/irods/util"
 )
 ```
 
 ## Account Configuration YAML
 ```yaml
 host:
-  hostname: "data.cyverse.org"
+  hostname: "data.phdavis1027.org"
   port: 1247
 user:
   username: "USERNAME"
@@ -81,7 +81,7 @@ Copyright (c) 2010-2021, The Arizona Board of Regents on behalf of The Universit
 
 All rights reserved.
 
-Developed by: CyVerse as a collaboration between participants at BIO5 at The University of Arizona (the primary hosting institution), Cold Spring Harbor Laboratory, The University of Texas at Austin, and individual contributors. Find out more at http://www.cyverse.org/.
+Developed by: CyVerse as a collaboration between participants at BIO5 at The University of Arizona (the primary hosting institution), Cold Spring Harbor Laboratory, The University of Texas at Austin, and individual contributors. Find out more at http://www.phdavis1027.org/.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -90,4 +90,4 @@ Redistribution and use in source and binary forms, with or without modification,
  * Neither the name of CyVerse, BIO5, The University of Arizona, Cold Spring Harbor Laboratory, The University of Texas at Austin, nor the names of other contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 
-Please check [LICENSE](https://github.com/cyverse/go-irodsclient/tree/master/LICENSE) file.
+Please check [LICENSE](https://github.com/phdavis1027/go-irodsclient/tree/master/LICENSE) file.

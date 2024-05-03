@@ -1,10 +1,10 @@
 package fs
 
 import (
-	"github.com/cyverse/go-irodsclient/irods/common"
-	"github.com/cyverse/go-irodsclient/irods/connection"
-	"github.com/cyverse/go-irodsclient/irods/message"
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/connection"
+	"github.com/phdavis1027/go-irodsclient/irods/message"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 	"golang.org/x/xerrors"
 )
 

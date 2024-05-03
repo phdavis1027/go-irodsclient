@@ -1,9 +1,9 @@
 package fs
 
 import (
-	irods_fs "github.com/cyverse/go-irodsclient/irods/fs"
-	"github.com/cyverse/go-irodsclient/irods/types"
-	"github.com/cyverse/go-irodsclient/irods/util"
+	irods_fs "github.com/phdavis1027/go-irodsclient/irods/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 )
 
 // ExtractStructFile extracts a struct file

@@ -1,8 +1,8 @@
 package connection
 
 import (
-	"github.com/cyverse/go-irodsclient/irods/common"
-	"github.com/cyverse/go-irodsclient/irods/message"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/message"
 	"golang.org/x/xerrors"
 )
 

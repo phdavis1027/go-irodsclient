@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/irods/connection"
-	"github.com/cyverse/go-irodsclient/irods/metrics"
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/connection"
+	"github.com/phdavis1027/go-irodsclient/irods/metrics"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 	"golang.org/x/xerrors"
 
 	log "github.com/sirupsen/logrus"

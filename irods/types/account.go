@@ -3,7 +3,7 @@ package types
 import (
 	"regexp"
 
-	"github.com/cyverse/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 )

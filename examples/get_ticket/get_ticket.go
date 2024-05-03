@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cyverse/go-irodsclient/fs"
-	"github.com/cyverse/go-irodsclient/irods/session"
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/fs"
+	"github.com/phdavis1027/go-irodsclient/irods/session"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 
 	log "github.com/sirupsen/logrus"
 )

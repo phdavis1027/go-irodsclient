@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cyverse/go-irodsclient/irods/types"
-	"github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 	gocache "github.com/patrickmn/go-cache"
 )
 

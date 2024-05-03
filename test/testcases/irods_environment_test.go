@@ -5,8 +5,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/cyverse/go-irodsclient/icommands"
-	"github.com/cyverse/go-irodsclient/test/server"
+	"github.com/phdavis1027/go-irodsclient/icommands"
+	"github.com/phdavis1027/go-irodsclient/test/server"
 	"github.com/stretchr/testify/assert"
 )
 

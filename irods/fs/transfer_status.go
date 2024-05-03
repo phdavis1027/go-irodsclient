@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cyverse/go-irodsclient/irods/util"
+	"github.com/phdavis1027/go-irodsclient/irods/util"
 	"golang.org/x/xerrors"
 )
 

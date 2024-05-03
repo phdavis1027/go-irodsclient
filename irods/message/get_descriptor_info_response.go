@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"encoding/xml"
 
-	"github.com/cyverse/go-irodsclient/irods/common"
-	"github.com/cyverse/go-irodsclient/irods/types"
+	"github.com/phdavis1027/go-irodsclient/irods/common"
+	"github.com/phdavis1027/go-irodsclient/irods/types"
 	"golang.org/x/xerrors"
 )
 

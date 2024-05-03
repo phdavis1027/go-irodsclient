@@ -3,7 +3,7 @@ package testcases
 import (
 	"testing"
 
-	"github.com/cyverse/go-irodsclient/irods/message"
+	"github.com/phdavis1027/go-irodsclient/irods/message"
 	"github.com/stretchr/testify/assert"
 )
 
