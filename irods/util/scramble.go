@@ -90,6 +90,7 @@ func ScrambleV2(newPassword string, oldPassword string, signature string) string
 	}
 
 	toScramble := MakeRandomString(1) + v2Prefix[1:v2prefixLen] + newPassword
+  println("toScramble", toScramble);
 
 	keyBuf := bytes.Buffer{}
 	keyBuf.WriteString(oldPassword)
@@ -99,8 +100,12 @@ func ScrambleV2(newPassword string, oldPassword string, signature string) string
 		keyBuf.WriteByte(0)
 	}
 
+  println("keyBuf", keyBuf.String());
+
 	hashKeyBytes := md5.Sum(keyBuf.Bytes())
 	hashedKey := hex.EncodeToString(hashKeyBytes[:])
+
+  println("hashedKey", hashedKey);
 
 	return Scramble(toScramble, hashedKey, "", true)
 }
@@ -112,6 +117,8 @@ func Scramble(toScramble string, key string, scramblePrefix string, blockChainin
 	}
 
 	encoderRing := GetEncoderRing(key)
+
+  println("encoderRing", encoderRing);
 	chain := 0
 
 	scrambledStr := strings.Builder{}
